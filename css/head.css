@@ -1,0 +1,279 @@
+#home {
+    display: block;
+    float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+#header {
+	margin-bottom: 10px;
+}
+
+#bodyBackground {
+	border: 1px solid #A5A5A5;
+	background-color: #FFFFFF;
+	overflow: hidden;
+    width: 100%;
+    max-width: 1140px;
+    min-width: 755px;
+    margin: 5px auto 5px auto;
+    padding: 3px 10px 3px 10px;
+}
+
+#pageContent {
+	clear: both;
+	width: 100%;
+	min-height: 440px;
+    padding: 5px 0px 5px 0px;
+}
+
+#accountLinkLogo {
+    display: inline-block;
+    width: 18px;
+    height: 24px;
+    position: relative;
+    top: 5px;
+    background-position: -137px -172px;
+}
+
+#accountLink {
+    display: inline-block;
+    width: 85px;
+    position: relative;
+    top: -5px;
+}
+
+#accountMenu {
+    font-size: 85%;
+    color: #000000;
+    width: 135px;
+}
+
+#accountMenu li {
+	width: 130px;
+}
+
+#authMenu {
+    font-size: 90%;
+	text-align: center;
+    color: #000000;
+    width: 260px;
+}
+
+#lostContainer {
+    text-align: right;
+    margin: 10px;
+}
+
+#stayConnected {
+    margin: 10px 0px 10px 0px;
+}
+
+#basketBackground {
+    display: block;
+    position: relative;
+    float: left;
+    height: 37px;
+    width: 91px;
+    margin: 10px 5px 0px 5px;
+    background-position: -137px -102px;
+}
+
+#basketCount {
+    position: absolute;
+    left: 6px;
+    top: 12px;
+    height: 15px;
+    width: 40px;
+    text-align: center;
+    font-size: 80%;
+    font-weight: bold;
+    color: #006633;
+}
+
+#connectBackground {
+    float: left;
+    height: 37px;
+    width: 115px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 85%;
+}
+
+#connectBackground a {
+    display: inline-block;
+    margin: 2px 0px 2px 0px;
+}
+
+#menu-header {
+    float: left;
+    margin: 10px 0px 0px 15px;
+    padding-top: 0px;
+}
+
+#menu-header a.lnk, #lookfor {
+    display: block;
+    float: left;
+    height: 37px;
+    background-image: url(images/misc/sprite-header.png);
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu-header a.lnk {
+    text-decoration: none;
+}
+
+#home-header {
+    width: 43px;
+    background-position: 0px 0px;
+}
+
+#home-header:hover, #home-header:active, #home-header:focus {
+    background-position: 0px -74px;
+}
+
+#home-header.current {
+    background-position: 0px -37px;
+}
+
+#sets-header {
+    width: 86px;
+    background-position: -43px 0px;
+}
+
+#sets-header:hover, #sets-header:active, #sets-header:focus {
+    background-position: -43px -74px;
+}
+
+#sets-header.current {
+    background-position: -43px -37px;
+}
+
+#items-header {
+    width: 192px;
+    background-position: -129px 0px;
+}
+
+#items-header:hover, #items-header:active, #items-header:focus {
+    background-position: -129px -74px;
+}
+
+#items-header.current {
+    background-position: -129px -37px;
+}
+
+#buyout-header {
+    width: 147px;
+    background-position: -324px 0px;
+}
+
+#buyout-header:hover, #buyout-header:active, #buyout-header:focus {
+    background-position: -324px -74px;
+}
+
+#buyout-header.current {
+    background-position: -324px -37px;
+}
+
+#lookfor {
+    position: relative;
+    width: 334px;
+    background-position: -472px 0px;
+}
+
+#lookfor:hover, #lookfor:active, #lookfor.focus {
+    background-position: -472px -74px;
+}
+
+#product {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    height: 20px;
+    width: 255px;
+    background: transparent;
+    padding-left: 23px;
+    font-size: 83%;
+    color: #006633;
+}
+
+#product, #product:hover {
+    border: 0px;
+    outline: 0px;
+}
+
+#furtherSearch {
+    position: absolute;
+    display: block;
+    float: right;
+    top: 12px;
+    right: 10px;
+    width: 50px;
+    font-size: 72%;
+    text-decoration: none;
+}
+
+#furtherSearch:hover, #furtherSearch:active, #furtherSearch:focus {
+    text-decoration: underline;
+}
+
+#autocomplete {
+	list-style-type: none;
+	padding: 0px;
+}
+
+#autocomplete li {
+	display: block;
+	margin: 0px;
+	padding: 4px 2px 4px 2px;
+    width: 100%;
+	cursor: pointer;
+    color: #006633;
+	text-align: left;
+    font-weight: bold;
+	font-size: 85%;
+	clear: both;
+}
+
+#autocomplete li:hover {
+    text-decoration: underline;
+}
+
+div.menu ul {
+	list-style-type: none;
+}
+
+div.menu li {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+div.menu li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px;
+}
+
+div.menu li a:hover {
+	background-color: #F5F5F5;
+}
+
+.suggestToken, .suggestToken a {
+    display: block;
+    text-align: center;
+    width: 100px;
+}
+
+.suggestToken {
+    margin: 10px auto 10px auto;
+}
+
+.suggestTokenTitle {
+    margin-top: 5px;
+    font-size: 90%;
+}

@@ -1,0 +1,20 @@
+#informations, #conditions, #feedback {
+	margin: 10px auto 10px auto;
+	padding: 10px;
+	width: 800px;
+}
+
+#address span {
+	display: block;
+	margin: 3px 0px 3px 15px;
+}
+
+#warning {
+	margin-top: 15px;
+	font-size: 90%;
+}
+
+.high {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}

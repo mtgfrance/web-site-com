@@ -1,0 +1,33 @@
+#general {
+	margin: 0px 15px 20px 5px;
+}
+
+#topic {
+	margin: 10px auto 30px auto;
+	width: 450px;
+}
+
+#cookies {
+	list-style-type: decimal;
+}
+
+#cookies li {
+	margin: 10px 35px 10px 35px;
+}
+
+#cookies div.topic {
+	font-weight: bold;
+	margin: 0px 0px 10px 20px;
+}
+
+#cookies div.content ul {
+	list-style-type: square;
+}
+
+h2.topic {
+	margin-top: 20px;
+}
+
+p {
+	margin-top: 10px;
+}

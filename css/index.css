@@ -1,0 +1,221 @@
+#pageContent .row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#set-cell {
+    width: 22%;
+    margin-right: 2%;
+}
+
+#set-cell .linker {
+    display: block;
+    margin: 5px 0px 25px 15px;
+    width: 200px;
+}
+
+#extra-item-cell {
+    width: 70%;
+}
+
+#extra-cell .linker {
+    margin: 25px 0px 25px 0px;
+    width: 112px;
+}
+
+#item-cell {
+   margin-top: 5px;
+}
+
+#new-card-cell {
+    position: relative;
+    width: 41.5%;
+}
+
+.new-card-cell-image, .new-card-cell-data {
+    float: left;
+}
+
+.new-card-cell-image {
+    width: 32%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.new-card-cell-data {
+    width: 60%;
+}
+
+.new-card-cell-data-title, .new-card-cell-data-set, .new-card-cell-data-price {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.new-card-cell-data-title {
+    margin: 10px 0px 20px 0px;
+}
+
+.new-card-cell-data-set {
+    font-size: 80%;
+    height: 120px;
+    overflow: hidden;
+}
+
+.new-card-cell-data-price {
+    font-size: 90%;
+    margin-top: 10px;
+}
+
+#new-item-cell {
+    width: 51%;
+}
+
+.new-item-cell-image, .new-item-cell-data {
+    float: left;
+}
+
+.new-item-cell-image {
+    width: 32%;
+    height: 180px;
+    padding-top: 5px;
+}
+
+.new-item-cell-image a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.new-item-cell-data {
+    width: 68%;
+}
+
+.new-item-cell-data-title {
+    margin: 10px 0px 20px 0px;
+}
+
+.new-item-cell-data-desc {
+    font-size: 80%;
+    height: 110px;
+    overflow: hidden;
+}
+
+.new-item-cell-data-price {
+    font-size: 90%;
+    margin-top: 10px;
+}
+
+#quality-cell {
+    width: 29%;
+    margin-right: 2%;
+}
+
+#facebook-cell, #blog-cell {
+    width: 30%;
+}
+
+#quality-cell, #blog-cell {
+    text-align: left;
+}
+
+#quality-cell div {
+    font-size: 80%;
+    margin: 20px 5px 5px 20px;
+}
+
+#blog-cell span {
+    display: block;
+    margin-bottom: 3.5px;
+    font-size: 100%;
+}
+
+#blog-cell div {
+    margin: 10px 20px 20px 25px;
+    font-size: 80%;
+}
+
+#blog-cell a {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.cell {
+    position: relative;
+    float: left;
+    margin: 0 1.5% 0 1.5%;
+    padding: 0px;
+    height: 200px;
+    text-align: center;
+}
+
+.linker {
+    font-size: 75%;
+}
+
+.linked {
+    float: left;
+    margin: 5px 0px 0px 5px;
+	font-size: 75%;
+}
+
+.linked h2 {
+	margin: 0px auto 0px auto;
+	padding: 2px;
+}
+
+.linked a {
+    display: inline-block;
+	width: 186px;
+	height: 44px;
+	margin: 10px 0px 10px 0px;
+    vertical-align: top;
+    color: #000000;
+}
+
+#subscribe, .go {
+    position: absolute;
+    z-index: 300;
+}
+
+#subscribe {
+    float: left;
+    left: -22px;
+    top: -14px;
+    width: 32px;
+	height: 32px;
+	background-position: -8px -100px;
+}
+
+.go {
+    float: right;
+    right: -30px;
+    top: 180px;
+    width: 84px;
+	height: 35px;
+	background-position: -46px -136px;
+}
+
+.categorybg {
+	border: 2px solid #000000;
+	background: url(images/misc/sprite-categories.png?v=9) no-repeat;
+	width: 160px;
+	height: 44px;
+	display: inline-block;
+}
+
+.c3 {
+	background-position: 0px 0px;
+}
+
+.c4 {
+	background-position: 0px -44px;
+}
+
+.c8 {
+	background-position: 0px -132px;
+}
+
+.c9 {
+    background-position: 0px -88px;
+}

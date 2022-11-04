@@ -1,0 +1,40 @@
+#topic {
+	margin: 10px auto 30px auto;
+	width: 450px;
+}
+
+#states {
+	margin: 5px 0px 15px 20px;
+}
+
+#visual {
+	text-align: center;
+}
+
+.general {
+	margin: 0px 15px 20px 5px;
+}
+
+.state {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 90%;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+li div.state {
+	text-decoration: underline;
+	font-size: 100%;
+}
+
+li .us, li .desc {
+	margin-left: 15px;
+}
+
+li .us {
+	font-size: 90%;
+	margin: 5px 0px 5px 10px;
+}

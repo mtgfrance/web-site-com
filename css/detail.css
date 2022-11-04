@@ -1,0 +1,205 @@
+.detail {
+	width: 920px;
+	margin: 0px auto 0px auto;
+}
+
+.detail .card-image {
+    position: relative;
+	text-align: center;
+	float: left;
+	width: 256px;
+	margin: 0px 10px 0px 10px;
+	padding: 10px;
+}
+
+.detail .card-image .transform {
+    display: block;
+    position: absolute;
+    float: right;
+    right: -19px;
+    top: 80%;
+    width: 38px;
+	height: 37px;
+    z-index: 300;
+}
+
+.detail .card-image .day {
+	background-position: -137px -63px;
+}
+
+.detail .card-image .night {
+	background-position: -175px -63px;
+}
+
+.detail .card-other-sets {
+    position: relative;
+    float: left;
+    width: 900px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.detail .card-other-sets-title  {
+    font-size: 90%;
+    text-align: center;
+}
+
+.detail .card-other-sets-content .linker {
+    float: left;
+    min-height: 40px;
+    max-height: 43px;
+    margin: 5px;
+}
+
+.detail .card-other-sets-content .linker * {
+    display: block;
+    margin: 0px;
+    width: 100px;
+}
+
+.detail .card-other-sets-content .linker a {
+    height: 40px;
+    text-decoration: none;
+}
+
+.detail .card-other-sets-content .linker span {
+    max-height: 12px;
+    font-size: 70%;
+    text-align: center;
+}
+
+.detail .card-infos, .detail .card-command-lang, .detail .card-command-condition, .detail .card-buy, .detail .card-foil-buy {
+	float: right;
+	width: 580px;
+	padding: 10px;
+}
+
+.detail .card-command-lang, .detail .card-command-condition, .detail .card-buy, .detail .card-foil-buy {
+	margin-top: 5px;
+}
+
+.detail .card-command-lang, .detail .card-command-condition {
+    text-align: center;
+    padding: 5px;
+}
+
+.detail .card-command-lang {
+    font-size: 70%;
+}
+
+.detail .card-command-condition {
+    font-size: 90%;
+}
+
+.detail h2, .detail h1 {
+	display: inline-block;
+}
+
+.detail .rarity {
+    float: left;
+    margin-right: 10px;
+}
+
+.detail .set {
+	font-size: 80%;
+    padding: 5px;
+    float: left;
+}
+
+.detail .extra {
+    padding-left: 5px;
+    font-size: 75%;
+    font-style: italic;
+}
+
+.detail .cost {
+    height: 20px;
+	margin-bottom: 10px;
+	float: right;
+}
+
+.detail .name {
+	margin-top: 10px;
+}
+
+.detail .go-to {
+    background-position: -148px -25px;
+	display: inline-block;
+	margin: 2px 5px 2px 20px;
+    height: 14px;
+    width: 14px;
+}
+
+.detail .go-to-lang {
+	font-size: 65%;
+}
+
+.detail .type {
+    font-size: 80%;
+    margin: 10px 0px 0px 20px;
+}
+
+.detail .text, .detail .flavor-text {
+    font-size: 90%;
+}
+
+.detail .text {
+    margin: 15px 20px 10px 10px;
+}
+
+.detail .flavor-text {
+    margin: 25px 20px 10px 10px;
+}
+
+.detail .pow-tough, .detail .loyalty {
+    float: right;
+    margin-right: 15px;
+    padding: 3px 5px 3px 5px;
+    border: 2px ridge #A5A5A5;
+}
+
+.detail .graphical {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.detail .serial, .detail .illustrator {
+	font-size: 80%;
+    margin-right: 15px;
+}
+
+.detail .buyer {
+	display: inline-block;
+	font-size: 90%;
+	text-align: left;
+	margin-left: 10px;
+	width: 300px;
+}
+
+.detail .price {
+    text-align: right;
+	margin-left: 15px;
+    display: inline-block;
+    width: 75px;
+}
+
+.detail .unavailable, .detail .followed {
+	font-size: 70%;
+}
+
+body.iframe {
+    background: transparent;
+}
+
+body.iframe #bodyBackground {
+    padding: 5px;
+    width: auto;
+}
+
+body.iframe button, body.iframe select, body.iframe .unavailable, body.iframe .go-to-lang, body.iframe .go-to, body.iframe .card-command-lang, body.iframe .card-command-condition {
+    display: none;
+}
+
+div.buy button, div.buy select, div.buy .card-buy, div.buy .card-foil-buy, div.buy .go-to-lang, div.buy .go-to, div.buy .card-command-lang, div.buy .card-command-condition {
+    display: none;
+}

@@ -1,0 +1,343 @@
+body {
+	font-family: Verdana, 'Bitstream vera sans', Geneva, Arial, Helvetica, sans-serif;
+	background-color: #E5E5E5;
+}
+
+fieldset {
+	border: 1px solid #A5A5A5;
+	padding: 10px;
+}
+
+legend {
+	color: #006633;
+	font-weight: bold;
+}
+
+legend:before, legend:after {
+    content: "\00A0\00A0";
+}
+
+a {
+	text-decoration: none;
+}
+
+ul li, ol li {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#flashMessages {
+    list-style-type: none;
+    text-align: left;
+}
+
+#flashMessages li {
+    padding: 3px;
+    margin-left: 0px;
+    clear: both;
+}
+
+#flashMessages .icon {
+    line-height: 20px;
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+
+#flashMessages .error .icon {
+  background-position: -2px -178px;
+}
+
+#flashMessages .warning .icon {
+  background-position: -26px -178px;
+}
+
+#flashMessages .notice .icon {
+  background-position: -50px -178px;
+}
+
+#flashMessages .msg {
+    line-height: 20px;
+    height: 20px;
+    margin-left: 5px;
+    float: left;
+}
+
+#fillAuthBox, #fillRegisterBox {
+	float: left;
+	height: 420px;
+	padding: 5px;
+}
+
+#fillAuthBox {
+	width: 500px;
+	border-right: 1px solid #006633;
+}
+
+#fillRegisterBox {
+	width: 600px;
+	border-left: 1px solid #006633;
+}
+
+#fillAuthBox > div, #fillRegisterBox > div {
+	width: 200px;
+	margin: 0px auto 0px auto;
+}
+
+#fillAdvice {
+	text-align: center;
+    font-size: 90%;
+    margin: 10px auto 10px auto;
+	padding: 10px;
+	width: 550px;
+}
+
+#backTop {
+	position: fixed;
+	top: 50%;
+}
+
+#backTop a {
+	width: 60px;
+	display: block;
+	color: #BBBBBB;
+	-webkit-transition: 0.75s;
+	-moz-transition: 0.75s;
+    -khtml-transition: 0.75s;
+	transition: 0.75s;
+}
+
+#backTop span {
+	width: 60px;
+	height: 60px;
+	display: block;
+	margin-bottom: 50%;
+	background-color: #AAAAAA;
+	background-position: -66px -32px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-transition: 0.75s;
+	-moz-transition: 0.75s;
+    -khtml-transition: 0.75s;
+	transition: 0.75s;
+}
+
+#backTop a:hover span {
+	background-color: #777777;
+}
+
+#noResult {
+	font-size: 110%;
+	text-align: center;
+	font-weight: bold;
+	display: block;
+	height: 30px;
+	width: 400px;
+	margin: 15px auto 10px auto;
+	padding: 5px;
+}
+
+#results {
+	background-color: #FFFFFF;
+	font-size: 80%;
+}
+
+#results button {
+    height: 22px;
+    padding: 0px 8px 2px 8px;
+}
+
+input[type="text"], input[type="password"], textarea {
+	border: 2px solid #E5E5E5;
+	padding: 3px;
+}
+
+select.select {
+	width: 40px;
+}
+
+table.layout {
+	text-align: center;
+	background-color: #FFFFFF;
+	width: 100%;
+}
+
+tr.ccard td {
+	vertical-align: middle;
+}
+
+tr.ccard td {
+	border-bottom: 1px solid #000000;
+}
+
+tr.legend td {
+	border-bottom: 1px solid #000000;
+	padding: 3px;
+}
+
+tr.legend td.nolegend {
+	border: none;
+}
+
+tr.legendary td, tr.legend td.legend {
+	font-weight: bold;
+}
+
+input.field {
+	background: url(images/misc/sprite-fields.png) no-repeat;
+	width: 186px;
+	line-height: 31px;
+	border: 0px;
+	padding: 0px 10px 0px 40px;
+	margin: 10px 10px 0px 0px;
+}
+
+input.identityField {
+	background-position: -2px -2px; 
+	height: 31px;
+}
+
+input.mailField {
+	background-position: -2px -42px; 
+	height: 33px;
+}
+
+input.passwordField {
+	background-position: -2px -84px; 
+	height: 33px;
+}
+
+.prototip .default .content {
+    font-size: 80%;
+    color: #000000;
+    background: #F5F5F5;
+    text-align: center;
+}
+
+.prototip .default .title {
+    font-size: 90%;
+    font-weight: bold;
+    text-transform: none;
+    text-align: center;
+    color: #006633;
+}
+
+.prototip .default .close {
+    border: 0 none;
+    cursor: pointer;
+    font-size: 0;
+    text-decoration: none;
+    height: 15px;
+    width: 19px;
+    line-height: 0;
+}
+
+.pageTitle {
+    padding: 10px;
+    border-bottom: 2px solid #006633;
+	color: #006633;
+	text-align: center;
+}
+
+.text-icon {
+    text-decoration: none !important;;
+    margin-right: 5px;
+}
+
+.cleaner {
+	clear: both;
+	visibility: hidden;
+}
+
+.links:link, .links:visited, .links:active {
+	font-size: 95%;
+	text-decoration: none;
+	color: #006633;
+}
+
+.links:hover {
+	text-decoration: underline;
+	color: #02A35D;
+}
+
+.ilinks:link, .ilinks:visited, .ilinks:active {
+	font-size: 95%;
+    text-decoration: underline;
+	color: #006633;
+}
+
+.ilinks:hover {
+    text-decoration: none;
+	color: #02A35D;
+}
+
+.bold {
+	font-weight: bold !important;
+}
+
+.italic {
+	font-style: italic !important;
+}
+
+.underline {
+	text-decoration: underline !important;
+}
+
+.striked {
+    text-decoration: line-through !important;
+}
+
+.plainlight {
+    border: 1px solid #E2E2E2;
+    background-color: #F5F5F5;
+}
+
+.enlighted {
+    border:1px solid #d7d5d2;
+	background: #FFFFFF;
+	-webkit-box-shadow: #AAAAAA 0 0 1px;
+	-moz-box-shadow: #AAAAAA 0 0 1px;
+	box-shadow: #AAAAAA 0 0 1px;
+}
+
+.enlighted:hover {
+	-webkit-box-shadow: #888888 0 0 5px;
+	-moz-box-shadow: #888888 0 0 5px;
+	box-shadow: #888888 0 0 5px;
+}
+
+.separator {
+	background-repeat: repeat-x;
+	background-image: url(images/misc/separator.jpg);
+	height: 2px;
+}
+
+.rounded {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.logo {
+	background: url(images/misc/sprite-logos.png?v=7) no-repeat;
+}
+
+.button {
+	cursor: pointer;
+}
+
+.dash {
+    font-weight: bold;
+}
+
+.err, .warn {
+	color: red;
+	font-weight: bold;
+}
+
+.ok {
+	color: green;
+	font-weight: bold;
+}

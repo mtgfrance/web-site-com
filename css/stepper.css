@@ -1,0 +1,150 @@
+.stepper {
+    list-style: none;
+    padding: 0px;
+    height: 31px;
+    font-weight: bold;
+    margin: 0px auto 15px auto !important;
+}
+
+.stepper li {
+    display: block;
+    float: left;
+    margin: 0px 1% 0px 1% !important;
+    background: url(images/misc/stepper-right.png) right top no-repeat;
+    color: #BBBBBB;
+}
+
+.stepper li.active {
+    color: #6E9510;
+}
+
+.stepper li.done {
+    color: #253F07;
+}
+
+.stepper li.active .wrapper {
+    color: #6E9510;
+    padding-left: 28px;
+}
+
+.stepper li.done .wrapper {
+    color: #253F07;
+}
+
+.stepper .wrapper {
+    float: left;
+    display: block;
+    padding-left: 33px;
+    padding-right: 10px;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 13px;
+}
+
+.stepper a.wrapper {
+    text-decoration: none;
+    height: 30px;
+    color: #666666;
+}
+
+.stepper a:hover {
+    color: #333333;
+}
+
+.stepper span {
+    float: left;
+    display: block;
+    line-height: 26px;
+    height: 31px;
+    padding-left: 2px;
+}
+
+.stepper .step-1, .stepper .step-2, .stepper .step-3,
+.stepper .step-4, .stepper .step-5, .stepper .step-6,
+.stepper .step-7 {
+    background-image: url(images/misc/stepper-left.png);
+    background-repeat: no-repeat;
+}
+
+.stepper .step-1 {
+    background-position: 0px 0px;
+}
+
+.stepper .step-2 {
+    background-position: 0 -68px;
+}
+
+.stepper .step-3 {
+    background-position: 0 -136px;
+}
+
+.stepper .step-4 {
+    background-position: 0 -204px;
+}
+
+.stepper .step-5 {
+    background-position: 0 -272px;
+}
+
+.stepper .step-6 {
+    background-position: 0 -340px;
+}
+
+.stepper .step-7 {
+    background-position: 0 -408px;
+}
+
+.stepper .active .step-1 {
+    background-position: 0 -34px;
+}
+
+.stepper .active .step-2 {
+    background-position: 0 -102px;
+}
+
+.stepper .active .step-3 {
+    background-position: 0 -170px;
+}
+
+.stepper .active .step-4 {
+    background-position: 0 -238px;
+}
+
+.stepper .active .step-5 {
+    background-position: 0 -306px;
+}
+
+.stepper .active .step-6 {
+    background-position: 0 -374px;
+}
+
+.stepper .active .step-7 {
+    background-position: 0 -442px;
+}
+
+.stepper .done .step-1 {
+    background-position: 0 -478px;
+}
+
+.stepper .done .step-2 {
+    background-position: 0 -513px;
+}
+
+.stepper .done .step-3 {
+    background-position: 0 -549px;
+}
+
+.stepper .done .step-4 {
+    background-position: 0 -584px;
+}
+
+.stepper .done .step-5 {
+    background-position: 0 -619px;
+}
+
+.stepper .done .step-6 {
+    background-position: 0 -654px;
+}
+
+.stepper .done .step-7 {
+    background-position: 0 -689px;
+}

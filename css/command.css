@@ -1,0 +1,38 @@
+#basketTitle {
+    margin: 0px auto 10px auto;
+    width: 350px;
+}
+
+#commandValid {
+    margin-top: 10px;
+}
+
+tr.ccard td.product {
+    text-align: left;
+}
+
+.suggestItem, .suggestItem a {
+    display: block;
+    width: 120px;
+    text-align: center;
+}
+
+.suggestItem {
+    float: left;
+    margin: 0px 15px 0px 15px;
+}
+
+.suggestItemTitle {
+    font-size: 85%;
+}
+
+.suggestItemTitle, .suggestItemPrice {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.prototip .default .closeLeft {
+    position: relative;
+    float: left;
+    margin-right: 5px;
+}

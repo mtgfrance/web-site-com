@@ -1,0 +1,21 @@
+#exportBox {
+	text-align: center;
+	padding: 5px;
+	margin: 5px 0px 10px 0px;
+}
+
+#exportBoxDate {
+	font-size: 90%;
+	margin-left: 15px;
+}
+
+#buyDisabled {
+	text-align: center;
+	width: 900px;
+	padding: 5px;
+	margin: 10px auto 10px auto;
+}
+
+#noResult {
+	padding: 10px;
+}

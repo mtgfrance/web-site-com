@@ -1,0 +1,65 @@
+#title {
+	margin: 0px auto 30px auto;
+	width: 500px;
+}
+
+#contentTitle, #priceTitle, #infosTitle {
+	margin: 10px auto 0px auto;
+	width: 350px;
+}
+
+#priceTitle, #infosTitle {
+	margin-top: 30px;
+}
+
+#content, #prices, #infos {
+	list-style-type: disc;
+	margin: 15px auto 0px auto;
+	width: 600px;
+}
+
+#content {
+	list-style-type: disc;
+}
+
+#prices {
+	list-style-type: square;
+}
+
+#infos {
+	list-style-type: circle;
+}
+
+#ioffer {
+	text-align: right;
+    font-size: 90%;
+	padding: 20px;
+}
+
+#content li, #prices li, #infos li {
+	margin: 5px auto 7.5px auto;
+	width: 800px;
+}
+
+.containerValue {
+	float: right;
+}
+
+.address {
+    font-size: 80%;
+}
+
+#conditions {
+	margin: 10px auto 10px auto;
+	padding: 5px;
+	width: 600px;
+}
+
+.confirm {
+	text-transform: uppercase;
+}
+
+.fillFoot {
+	margin-top: 20px;
+	text-align: center;
+}

@@ -1,0 +1,145 @@
+#itemDisplaySelector {
+    text-align: center;
+}
+
+#itemDisplaySelector div {
+    float: left;
+    margin-right: 5px;
+}
+
+#itemDisplayGrid, #itemDisplayList {
+    width: 27px;
+    height: 26px;
+}
+
+#itemDisplayGrid {
+    background-position: -5px -46px;
+}
+
+#itemDisplayGrid:hover {
+    background-position: -5px -72px;
+}
+
+#itemDisplayList {
+    background-position: -33px -46px;
+}
+
+#itemDisplayList:hover {
+    background-position: -33px -72px;
+}
+
+#itemSelector {
+    margin-top: 15px;
+}
+
+#all {
+	text-align: center;
+}
+
+#item-container {
+	width: 1000px;
+	cursor: default;
+}
+
+.itemTitle, .itemDescription {
+	line-height: 85%;
+}
+
+.itemGrid {
+    vertical-align: middle;
+}
+
+.itemGridWrap {
+    height: 270px;
+    margin: 5px;
+}
+
+.itemGridImage {
+    vertical-align: middle;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    margin: 5px auto 0px auto;
+}
+
+.itemGridTitle {
+    padding: 0px 2px 0px 2px;
+    margin-top: 5px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.itemGridTitle .itemTitle {
+    line-height: 120%;
+}
+
+.itemGridForm {
+    margin-top: 2.5px;
+}
+
+#item-detail {
+	width: 1000px;
+	margin: 0px auto 0px auto;
+}
+
+#item-image, #item-content {
+    float: left;
+}
+
+#item-image {
+    text-align: center;
+	width: 550px;
+	margin-right: 20px;
+	padding: 20px;
+}
+
+#item-sku-ean {
+    font-size: 70%;
+    margin-top: 10px;
+}
+
+#item-content {
+    width: 405px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#item-links {
+	text-align: right;
+    margin-bottom: 15px;
+}
+
+#item-links-category {
+	font-size: 95%;
+}
+
+#item-links-type {
+	font-size: 85%;
+}
+
+#item-links-logo {
+    background-position: -148px -25px;
+    margin: 0px 5px 0px 5px;
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+}
+
+#item-image, #item-description, #item-buy {
+    padding: 10px;
+}
+
+#item-buy {
+    margin-top: 10px;
+    text-align: right;
+}
+
+#item-buy .unavailable, #item-buy .followed  {
+	font-size: 70%;
+}
+
+#item-description h2 {
+    margin: 20px 0px 0px 10px;
+    font-size: 90%;
+    font-weight: normal;
+}

@@ -1,0 +1,366 @@
+.mana, .tap, .untap, .ticket {
+    background: url('images/misc/sprite-mana.png?v=1') no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.tap {
+	background-position: -100px -40px;
+}
+
+.untap {
+	background-position: -120px -40px;
+}
+
+.mana-x {
+	background-position: -360px -0px;
+}
+
+.mana-s, .mana-snow {
+	background-position: -140px -40px;
+}
+
+.mana-c {
+	background-position: -160px -40px;
+}
+
+.mana-e {
+	background-position: -180px -40px;
+}
+
+.ticket {
+	background-position: -200px -40px;
+}
+
+.mana-pain-w {
+	background-position: -180px -60px;
+}
+
+.mana-pain-u {
+	background-position: -160px -60px;
+}
+
+.mana-pain-b {
+	background-position: -100px -60px;
+}
+
+.mana-pain-r {
+	background-position: -140px -60px;
+}
+
+.mana-pain-g {
+	background-position: -120px -60px;
+}
+
+.mana-w {
+	background-position: -0px -0px;
+}
+
+.mana-u {
+	background-position: -20px -0px;
+}
+
+.mana-b {
+	background-position: -40px -0px;
+}
+
+.mana-r {
+	background-position: -60px -0px;
+}
+
+.mana-g {
+	background-position: -80px -0px;
+}
+
+.mana-0 {
+	background-position: -100px -0px;
+}
+
+.mana-1 {
+	background-position: -120px -0px;
+}
+
+.mana-2 {
+	background-position: -140px -0px;
+}
+
+.mana-3 {
+	background-position: -160px -0px;
+}
+
+.mana-4 {
+	background-position: -180px -0px;
+}
+
+.mana-5 {
+	background-position: -200px -0px;
+}
+
+.mana-6 {
+	background-position: -220px -0px;
+}
+
+.mana-7 {
+	background-position: -240px -0px;
+}
+
+.mana-8 {
+	background-position: -260px -0px;
+}
+
+.mana-9 {
+	background-position: -280px -0px;
+}
+
+.mana-10 {
+	background-position: -300px -0px;
+}
+
+.mana-11 {
+	background-position: -320px -0px;
+}
+
+.mana-12 {
+	background-position: -340px -0px;
+}
+
+.mana-13 {
+	background-position: -100px -20px;
+}
+
+.mana-14 {
+	background-position: -120px -20px;
+}
+
+.mana-15 {
+	background-position: -140px -20px;
+}
+
+.mana-16 {
+	background-position: -160px -20px;
+}
+
+.mana-17 {
+	background-position: -180px -20px;
+}
+
+.mana-18 {
+	background-position: -200px -20px;
+}
+
+.mana-19 {
+	background-position: -220px -20px;
+}
+
+.mana-20 {
+	background-position: -240px -20px;
+}
+
+.mana-w-u {
+	background-position: -0px -20px;
+}
+
+.mana-w-b {
+	background-position: -20px -20px;
+}
+
+.mana-w-r {
+	background-position: -40px -20px;
+}
+
+.mana-w-g {
+	background-position: -60px -20px;
+}
+
+.mana-u-w {
+	background-position: -0px -40px;
+}
+
+.mana-u-b {
+	background-position: -20px -40px;
+}
+
+.mana-u-r {
+	background-position: -40px -40px;
+}
+
+.mana-u-g {
+	background-position: -60px -40px;
+}
+
+.mana-b-w {
+	background-position: -0px -60px;
+}
+
+.mana-b-u {
+	background-position: -20px -60px;
+}
+
+.mana-b-r {
+	background-position: -40px -60px;
+}
+
+.mana-b-g {
+	background-position: -60px -60px;
+}
+
+.mana-r-w {
+	background-position: -0px -80px;
+}
+
+.mana-r-u {
+	background-position: -20px -80px;
+}
+
+.mana-r-b {
+	background-position: -40px -80px;
+}
+
+.mana-r-g {
+	background-position: -60px -80px;
+}
+
+.mana-g-w {
+	background-position: -0px -100px;
+}
+
+.mana-g-u {
+	background-position: -20px -100px;
+}
+
+.mana-g-b {
+	background-position: -40px -100px;
+}
+
+.mana-g-r {
+	background-position: -60px -100px;
+}
+
+.mana-1-w {
+	background-position: -0px -120px;
+}
+
+.mana-1-u {
+	background-position: -20px -120px;
+}
+
+.mana-1-b {
+	background-position: -40px -120px;
+}
+
+.mana-1-r {
+	background-position: -60px -120px;
+}
+
+.mana-1-g {
+	background-position: -80px -120px;
+}
+
+.mana-2-w {
+	background-position: -0px -140px;
+}
+
+.mana-2-u {
+	background-position: -20px -140px;
+}
+
+.mana-2-b {
+	background-position: -40px -140px;
+}
+
+.mana-2-r {
+	background-position: -60px -140px;
+}
+
+.mana-2-g {
+	background-position: -80px -140px;
+}
+
+.mana-3-w {
+	background-position: -0px -160px;
+}
+
+.mana-3-u {
+	background-position: -20px -160px;
+}
+
+.mana-3-b {
+	background-position: -40px -160px;
+}
+
+.mana-3-r {
+	background-position: -60px -160px;
+}
+
+.mana-3-g {
+	background-position: -80px -160px;
+}
+
+.rarity {
+    background: url('images/misc/sprite-rarity-right.png') no-repeat;
+    padding-right: 5px;
+    float: left;
+    font-size: 90%;
+    cursor: default;
+}
+
+.rarity span {
+    background: url('images/misc/sprite-rarity-left.png') no-repeat;  
+    padding-left: 36px;
+    padding-right: 5px;
+    line-height: 26px;
+    height: 26px;
+}
+
+.rarity, .rarity span {
+    display: block;
+}
+
+.rarity-1 {
+    background-position: right top;
+}
+
+.rarity-1 span {
+    background-position: left top;
+}
+
+.rarity-2 {
+  background-position: right -26px;
+}
+
+.rarity-2 span {
+  background-position: left -26px;
+}
+
+.rarity-3 {
+  background-position: right -52px;
+}
+
+.rarity-3 span {
+  background-position: left -52px;
+}
+
+.rarity-4 {
+    background-position: right -78px;
+}
+
+.rarity-4 span {
+    background-position: left -78px;
+}
+
+.rarity-5 {
+    background-position: right -104px;
+}
+
+.rarity-5 span {
+    background-position: left -104px;
+}
+
+.rarity-6 {
+    background-position: right -130px;
+}
+
+.rarity-6 span {
+    background-position: left -130px;
+}

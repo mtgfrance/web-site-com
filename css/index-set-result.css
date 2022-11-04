@@ -1,0 +1,667 @@
+.setbg {
+  background: url(images/misc/sprite-sets.png?v=9) no-repeat;
+  width: 100px;
+  height: 40px;
+  display: block;
+}
+
+.s61 {
+  background-position: 0px 0px;
+}
+
+.s77 {
+  background-position: 0px -3139px;
+}
+
+.s78 {
+  background-position: 0px -3182px;
+}
+
+.s1 {
+  background-position: 0px -43px;
+}
+
+.s31 {
+  background-position: 0px -86px;
+}
+
+.s13 {
+  background-position: 0px -129px;
+}
+
+.s10 {
+  background-position: 0px -172px;
+}
+
+.s2 {
+  background-position: 0px -215px;
+}
+
+.s47 {
+  background-position: 0px -258px;
+}
+
+.s33 {
+  background-position: 0px -301px;
+}
+
+.s21 {
+  background-position: 0px -344px;
+}
+
+.s3 {
+  background-position: 0px -387px;
+}
+
+.s4 {
+  background-position: 0px -430px;
+}
+
+.s19 {
+  background-position: 0px -473px;
+}
+
+.s15 {
+  background-position: 0px -516px;
+}
+
+.s37 {
+  background-position: 0px -559px;
+}
+
+.s34 {
+  background-position: 0px -602px;
+}
+
+.s9 {
+  background-position: 0px -645px;
+}
+
+.s27 {
+  background-position: 0px -688px;
+}
+
+.s30 {
+  background-position: 0px -731px;
+}
+
+.s5 {
+  background-position: 0px -774px;
+}
+
+.s39 {
+  background-position: 0px -817px;
+}
+
+.s12 {
+  background-position: 0px -860px;
+}
+
+.s35 {
+  background-position: 0px -903px;
+}
+
+.s23 {
+  background-position: 0px -946px;
+}
+
+.s20 {
+  background-position: 0px -989px;
+}
+
+.s40 {
+  background-position: 0px -1032px;
+}
+
+.s16 {
+  background-position: 0px -1075px;
+}
+
+.s17 {
+  background-position: 0px -1118px;
+}
+
+.s6 {
+  background-position: 0px -1161px;
+}
+
+.s18 {
+  background-position: 0px -1204px;
+}
+
+.s25 {
+  background-position: 0px -1247px;
+}
+
+.s44 {
+  background-position: 0px -1290px;
+}
+
+.s38 {
+  background-position: 0px -1333px;
+}
+
+.s29 {
+  background-position: 0px -1376px;
+}
+
+.s42 {
+  background-position: 0px -1419px;
+}
+
+.s7 {
+  background-position: 0px -1462px;
+}
+
+.s11 {
+  background-position: 0px -1505px;
+}
+
+.s43 {
+  background-position: 0px -1548px;
+}
+
+.s45 {
+  background-position: 0px -1591px;
+}
+
+.s24 {
+  background-position: 0px -1634px;
+}
+
+.s14 {
+  background-position: 0px -1677px;
+}
+
+.s26 {
+  background-position: 0px -1720px;
+}
+
+.s22 {
+  background-position: 0px -1763px;
+}
+
+.s8 {
+  background-position: 0px -1806px;
+}
+
+.s28 {
+  background-position: 0px -1849px;
+}
+
+.s36 {
+  background-position: 0px -1892px;
+}
+
+.s46 {
+  background-position: 0px -1935px;
+}
+
+.s48 {
+  background-position: 0px -1978px;
+}
+
+.s49 {
+  background-position: 0px -2021px;
+}
+
+.s50 {
+  background-position: 0px -2064px;
+}
+
+.s51 {
+  background-position: 0px -2107px;
+}
+
+.s52 {
+  background-position: 0px -2150px;
+}
+
+.s53 {
+  background-position: 0px -2193px;
+}
+
+.s54 {
+  background-position: 0px -2236px;
+}
+
+.s55 {
+  background-position: 0px -2279px;
+}
+
+.s56 {
+  background-position: 0px -2322px;
+}
+
+.s57 {
+  background-position: 0px -2365px;
+}
+
+.s58 {
+  background-position: 0px -2408px;
+}
+
+.s59 {
+  background-position: 0px -2451px;
+}
+
+.s60 {
+  background-position: 0px -2494px;
+}
+
+.s62 {
+  background-position: 0px -2537px;
+}
+
+.s63 {
+  background-position: 0px -2580px;
+}
+
+.s64 {
+  background-position: 0px -2623px;
+}
+
+.s65 {
+  background-position: 0px -2666px;
+}
+
+.s66 {
+  background-position: 0px -2709px;
+}
+
+.s67 {
+  background-position: 0px -2752px;
+}
+
+.s68 {
+  background-position: 0px -2795px;
+}
+
+.s69 {
+  background-position: 0px -2838px;
+}
+
+.s70 {
+  background-position: 0px -2881px;
+}
+
+.s71 {
+  background-position: 0px -2924px;
+}
+
+.s72 {
+  background-position: 0px -2967px;
+}
+
+.s73 {
+  background-position: 0px -3010px;
+}
+
+.s74 {
+  background-position: 0px -3053px;
+}
+
+.s75 {
+  background-position: 0px -3096px;
+}
+
+.s98 {
+  background-position: 0px -3225px;
+}
+
+.s99 {
+  background-position: 0px -3268px;
+}
+
+.s100 {
+  background-position: 0px -3311px;
+}
+
+.s41 {
+  background-position: 0px -3354px;
+}
+
+.s101 {
+  background-position: 0px -3397px;
+}
+
+.s102 {
+  background-position: 0px -3440px;
+}
+
+.s103 {
+  background-position: 0px -3480px;
+}
+
+.s104 {
+  background-position: 0px -3520px;
+}
+
+.s105 {
+  background-position: 0px -3563px;
+}
+
+.s106 {
+  background-position: 0px -3606px;
+}
+
+.s32 {
+  background-position: 0px -3649px;
+}
+
+.s76 {
+  background-position: 0px -3692px;
+}
+
+.s108 {
+  background-position: 0px -3735px;
+}
+
+.s110 {
+  background-position: 0px -3778px;
+}
+
+.s111 {
+  background-position: 0px -3821px;
+}
+
+.s112 {
+  background-position: 0px -3864px;
+}
+
+.s113 {
+  background-position: 0px -3905px;
+}
+
+.s114 {
+  background-position: 0px -3946px;
+}
+
+.s115 {
+  background-position: 0px -3992px;
+}
+
+.s116 {
+  background-position: 0px -4038px;
+}
+
+.s117 {
+  background-position: 0px -4084px;
+}
+
+.s118 {
+  background-position: 0px -4124px;
+}
+
+.s119 {
+  background-position: 0px -4164px;
+}
+
+.s121 {
+  background-position: 0px -4208px;
+}
+
+.s122 {
+  background-position: 0px -4251px;
+}
+
+.s123 {
+  background-position: 0px -4294px;
+}
+
+.s124 {
+  background-position: 0px -4337px;
+}
+
+.s125 {
+  background-position: 0px -4380px;
+}
+
+.s127 {
+  background-position: 0px -4423px;
+}
+
+.s128 {
+  background-position: 0px -4466px;
+}
+
+.s129 {
+  background-position: 0px -4509px;
+}
+
+.s130 {
+  background-position: 0px -4552px;
+}
+
+.s131 {
+  background-position: 0px -4595px;
+}
+
+.s132 {
+  background-position: 0px -4638px;
+}
+
+.s133 {
+  background-position: 0px -4681px;
+}
+
+.s134 {
+  background-position: 0px -4724px;
+}
+
+.s135 {
+  background-position: 0px -4767px;
+}
+
+.s136 {
+  background-position: 0px -4810px;
+}
+
+.s137 {
+  background-position: 0px -4853px;
+}
+
+.s138 {
+  background-position: 0px -4896px;
+}
+
+.s139 {
+  background-position: 0px -4939px;
+}
+
+.s140 {
+  background-position: 0px -4982px;
+}
+
+.s141 {
+  background-position: 0px -5025px;
+}
+
+.s145 {
+  background-position: 0px -5068px;
+}
+
+.s147 {
+  background-position: 0px -5111px;
+}
+
+.s148 {
+  background-position: 0px -5154px;
+}
+
+.s149 {
+  background-position: 0px -5197px;
+}
+
+.s150 {
+  background-position: 0px -5240px;
+}
+
+.s151 {
+  background-position: 0px -5283px;
+}
+
+.s152 {
+  background-position: 0px -5326px;
+}
+
+.s153 {
+  background-position: 0px -5369px;
+}
+
+.s154 {
+  background-position: 0px -5412px;
+}
+
+.s155 {
+  background-position: 0px -5455px;
+}
+
+.s157 {
+  background-position: 0px -5498px;
+}
+
+.s158 {
+  background-position: 0px -5541px;
+}
+
+.s161 {
+  background-position: 0px -5584px;
+}
+
+.s162 {
+  background-position: 0px -5627px;
+}
+
+.s164 {
+  background-position: 0px -5670px;
+}
+
+.s165 {
+  background-position: 0px -5713px;
+}
+
+.s166 {
+  background-position: 0px -5713px;
+}
+
+.s167,
+.s168 {
+  background-position: 0px -5756px;
+}
+
+.s169,
+.s170 {
+  background-position: 0px -5799px;
+}
+
+.s171 {
+  background-position: 0px -5842px;
+}
+
+.s172,
+.s173 {
+  background-position: 0px -5885px;
+}
+
+.s174 {
+  background-position: 0px -5928px;
+}
+
+.s175,
+.s176 {
+  background-position: 0px -5971px;
+}
+
+.s177,
+.s178 {
+  background-position: 0px -6014px;
+}
+
+.s179,
+.s180 {
+  background-position: 0px -6056px;
+}
+
+.s181,
+.s182 {
+  background-position: 0px -6099px;
+}
+
+.s183 {
+  background-position: 0px -6142px;
+}
+
+.s184,
+.s185 {
+  background-position: 0px -6185px;
+}
+
+.s186,
+.s187 {
+  background-position: 0px -6228px;
+}
+
+.s188,
+.s189 {
+  background-position: 0px -6271px;
+}
+
+.s190,
+.s191,
+.s192,
+.s193 {
+  background-position: 0px -6314px;
+}
+
+.s194,
+.s195,
+.s196,
+.s197 {
+  background-position: 0px -6357px;
+}
+
+.s198,
+.s199,
+.s200,
+.s201 {
+  background-position: 0px -6400px;
+}
+
+.s202,
+.s203,
+.s204,
+.s205 {
+  background-position: 0px -6443px;
+}
+
+.s206,
+.s207,
+.s208,
+.s209 {
+  background-position: 0px -6486px;
+}
+
+.s210,
+.s211 {
+  background-position: 0px -6529px;
+}
+
+.s212,
+.s213 {
+  background-position: 0px -6572px;
+}
+
+.s214,
+.s215,
+.s216,
+.s217 {
+  background-position: 0px -6615px;
+}
+
+.s218,
+.s219 {
+  background-position: 0px -6658px;
+}
+
+/* 43px */

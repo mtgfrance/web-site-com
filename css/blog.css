@@ -1,0 +1,60 @@
+#subscription {
+	margin: 0px auto 10px auto;
+	width: 190px;
+	padding: 5px 10px 10px 10px;
+	text-align: center;
+}
+
+#subscribe {
+	float: left;
+	width: 24px;
+	height: 24px;
+	background-position: -144px -2px;
+}
+
+#subscribeLink {
+	display: block;
+	padding-top: 5px;
+}
+
+#blog {
+	list-style-type: none;
+	padding-left: 15px;
+}
+
+#blog li {
+	margin-bottom: 30px;
+}
+
+#plink, #nlink {
+	width: 130px;
+}
+
+#plink {
+	float: left;
+	margin-left: 75px;
+}
+
+#nlink {
+	float: right;
+	margin-right: 50px;
+}
+
+.date  {
+    margin: 5px 0px 0px 20px;
+    display: block;
+	font-size: 85%;
+	font-style: italic;
+}
+
+.back, .read {
+    display: block;
+	margin-top: 7px;
+	margin-left: 80%;
+}
+
+#blog .content {
+	margin: 10px 5px 0px 5px;
+	padding: 10px;
+	border-left: 2px solid #006633;
+}

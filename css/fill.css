@@ -1,0 +1,86 @@
+#ilanguage {
+    font-size: 90%;
+	padding-bottom: 15px;
+}
+
+#goAddAddressW, #addAddressW, #goAddMailW, #addMailW {
+	padding-top: 15px;
+}
+
+#conditions {
+	margin: 10px auto 10px auto;
+	padding: 5px;
+	width: 600px;
+}
+
+#shipmentBait {
+	text-align: center;
+    font-size: 90%;
+    margin: 30px auto 10px auto;
+	padding: 10px;
+	width: 550px;
+}
+
+#shipmentHelp {
+	margin: 10px 10px 0px 45px;
+	text-align: left;
+    font-size: 90%;
+}
+
+#title {
+	margin: 0px auto 0px auto;
+	width: 250px;
+}
+
+ul {
+	text-align: left;
+}
+
+ul li {
+	margin: 2px 0px 2px 0px;
+}
+
+.halfWrapperPart {
+	width: 49%;
+	margin: 0px 5px 0px 5px;
+	float: left;
+}
+
+.partHolder {
+	min-height: 150px;
+}
+
+.partHolderS {
+	min-height: 125px;
+}
+
+.partHolderSS {
+	min-height: 100px;
+}
+
+.case {
+	border-bottom: 1px solid #A5A5A5;
+	padding: 3px;
+	text-align: center;
+}
+
+.fillFoot {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.complement {
+    display: block;
+    margin: 5px 0px 0px 30px;
+    font-size: 90%;
+}
+
+.altinfo {
+    display: block;
+    margin-bottom: 10px;
+	font-size: 90%;
+}
+
+.alterinfo {
+	font-size: 80%;
+}

@@ -1,0 +1,84 @@
+#title {
+	margin: 0px auto 30px auto;
+	width: 250px;
+}
+
+#ship, #range {
+	list-style-type: none;
+	margin-top: 10px;
+	padding: 0px;
+}
+
+#ship li, #range li {
+	margin: 0px 5px 0px 5px;
+	padding: 5px;
+}
+
+#ship span, #range span {
+	display: inline-block;
+}
+
+#ship span.first {
+	width: 35%;
+}
+
+#ship span.secondary {
+	width: 60%;
+}
+
+#ship span.desc {
+   font-size: 75%;
+}
+
+#range span {
+    text-align: center;
+}
+
+#range span.bound {
+	text-align: left;
+	padding-left: 10px;
+	width: 25%;
+}
+
+#range span.rest {
+	width: 22%;
+}
+
+#shipmentHelp {
+	margin: 10px 10px 0px 45px;
+	text-align: left;
+    font-size: 90%;
+}
+
+h2.topic {
+	text-align: center;
+	margin-top: 20px;
+}
+
+div.info {
+	padding: 5px;
+	margin: 20px auto 0px auto;
+	width: 500px;
+	text-align: center;
+}
+
+div.rule {
+	margin: 5px auto 0px auto;
+	width: 750px;
+	text-align: center;
+    font-size: 90%;
+}
+
+div.current {
+	height: 14px;
+	width: 14px;
+	float: left;
+	margin: 5px 5px 0px 0px;
+	background-position: -148px -26px;
+}
+
+sup {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 70%;
+}

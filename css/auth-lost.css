@@ -1,0 +1,20 @@
+#title, #stitle {
+	margin: 0px auto 30px auto;
+}
+
+#title {
+	width: 250px;
+}
+
+#stitle {
+	width: 350px;
+}
+
+.form {
+	text-align: center;
+}
+
+p.err {
+	text-align: center;
+	margin-top: 10px;
+}

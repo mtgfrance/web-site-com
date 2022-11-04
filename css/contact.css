@@ -1,0 +1,15 @@
+#title {
+	margin: 0px auto 30px auto;
+	width: 350px;
+}
+
+#postal, #virtual, #done {
+	margin: 0px auto 10px auto;
+	width: 650px;
+	padding: 5px;
+	text-align: center;
+}
+
+#sender {
+	margin-top: 10px;
+}

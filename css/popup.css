@@ -1,0 +1,38 @@
+.popup-card, .popup-item {
+	border: 1px solid #A5A5A5;
+	background-color: #FFFFFF;
+}
+
+.popup-card, .popup-item {
+    padding: 15px;
+}
+
+.popup-close {
+	position: absolute;
+	top: -20px;
+	right: -16px;
+	width: 34px;
+	height: 34px;
+	background-position: -40px -98px;
+}
+
+.popup-pn {
+	position: absolute;
+	top: 30%;
+	width: 64px;
+	height: 132px;
+}
+
+.popup-previous {
+	left: -64px;
+	background-position: -296px -3px;
+}
+
+.popup-next {
+	left: 950px;
+	background-position: -232px -3px;
+}
+
+.popup-item .popup-next {
+	left: 1030px;
+}

@@ -1,0 +1,9 @@
+#basketTitle {
+    margin: 0px auto 10px auto;
+    width: 350px;
+}
+
+tr.ccard td.product {
+    padding-left: 10px;
+    text-align: left;
+}

@@ -1,0 +1,69 @@
+h2 {
+	padding: 5px;
+	font-weight: bold;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 70%;
+}
+
+li:first-of-type h2 {
+	margin-top: 0px;
+}
+
+.parted:first-of-type {
+    border-right: 1px solid #006633;
+}
+
+.parted {
+	float: left;
+	width: 48%;
+	padding: 0px;
+	margin: 10px 0px 0px 1%;
+}
+
+.topic {
+	width: 250px;
+	margin: 20px auto 20px auto;
+}
+
+.linker {
+    margin: 0px;
+    width: 170px;
+}
+
+.linker a {
+    margin-bottom: 2px;
+}
+
+.displayList {
+	text-align: center;
+	padding: 0px;
+}
+
+.displayList li {
+	list-style-type: none;
+	vertical-align: middle;
+	padding: 5px 0px 5px 0px;
+	margin: 0px;
+}
+
+.tiny {
+	height: 1px;
+	margin: 0px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+	.tiny {
+		margin-top: 10px;
+		margin-top: 5px;
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.tiny {
+		margin-top: 10px;
+		margin-top: 5px;
+	}
+}

@@ -1,0 +1,25 @@
+#general {
+	margin: 0px 15px 20px 5px;
+}
+
+#topic {
+	margin: 10px auto 30px auto;
+	width: 450px;
+}
+
+#conditions {
+	list-style-type: decimal;
+}
+
+#conditions li {
+	margin: 10px 35px 10px 35px;
+}
+
+#conditions div.topic {
+	font-weight: bold;
+	margin: 0px 0px 10px 20px;
+}
+
+#conditions div.content ul {
+	list-style-type: square;
+}

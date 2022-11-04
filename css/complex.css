@@ -1,0 +1,50 @@
+#title {
+	margin: 0px auto 20px auto;
+	width: 350px;
+}
+
+#complexSearch {
+    padding: 20px 15px 0px 15px;
+}
+
+#complexSearch label {
+	font-weight: bold;
+	font-size: 85%;
+	margin-bottom: 5px;
+    display: block;
+}
+
+#complexSearch .box {
+    float: left;
+    margin: 0px 20px 0px 20px;
+}
+
+#complexSearch .hbox {
+	margin-bottom: 10px;
+}
+
+#complexSearch .hbox label {
+   display: inline;
+}
+
+#complexSearch .vpart {
+	margin-bottom: 30px;
+}
+
+#complexSearch .hpart {
+	margin-right: 30px;
+}
+
+#complexSearch .explain {
+	font-size: 70%;
+}
+
+#rarities {
+    margin-bottom: 10px;
+}
+
+#listInfo {
+	margin: 15px 0px 0px 15px;
+    text-align: left;
+    font-size: 90%;
+}
